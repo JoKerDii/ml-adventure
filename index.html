@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Quiz Game">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Machine Learning, Game">
+    <meta name="author" content="Di Zhen">
+    <meta name="url" content="https://github.com/JoKerDii">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font API -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet Source -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>JoKer's ML Adventure</title>
+
+</head>
+
+<body>
+    <!-- Default unchecked -->
+    <div class="container">
+        <div class="header-masker" style="background:rgba(40,57,101,0.4)"></div>
+        <div class="centered">
+            <div class="welcome-message">
+                <h1>Machine Learning Adventure</h1>
+                <p>It is not easy to be an adventurer, but we still want to leave.</p>
+                <p>亮剑吧 勇士</p>
+            </div>
+
+            <div id="question-container" class="hide">
+                <div id="question">Question</div>
+                <div id="answer-buttons" class="btn-grid">
+                    <button class="btn">Answer 1</button>
+                    <button class="btn">Answer 2</button>
+                    <button class="btn">Answer 3</button>
+                    <button class="btn">Answer 4</button>
+                </div>
+            </div>
+
+            <div id="end-game-message" class='end-game-message'>
+                <h1>Machine Learning Adventure</h1>
+                <p>The man who fears failing has already failed.</p>
+                <p>See you, great adventurer!</p>
+            </div>
+
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+                <button id="end-btn" class="next-btn btn hide">End </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="credit">
+        <p>Made By <a style="text-decoration: none;; font-weight: bold; color: black; " target="_blank"
+                href="https://github.com/JoKerDii">Di Zhen</a></p>
+    </div>
+    <!-- Main JavaScript Source -->
+    <script src="app.js"></script>
+    </script>
+</body>
+
+</html>
